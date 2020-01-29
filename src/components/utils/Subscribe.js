@@ -86,6 +86,7 @@ class Subscribe extends Component {
             <div className={state.alreadyIn ? 'success show' : 'success'}> Already register</div>
           </form>
         </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima odit saepe in nobis atque reiciendis velit nemo odio aut eos quis.</p>
       </div>
     )
   }
