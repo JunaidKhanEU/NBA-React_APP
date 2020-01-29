@@ -243,6 +243,14 @@ footer {
     transition: all 500ms ease-in-out;
 
 }
+.team:{
+  transition: all 500ms ease-in-out;
+}
+.team:hover{
+   border-radius: 10%;
+   box-shadow: 0 1rem 5rem 10px #888888;
+
+}
 .block_item .top:hover .veil {
     opacity:0;
     transition: all 500ms ease-in-out;
