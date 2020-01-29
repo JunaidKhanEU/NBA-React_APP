@@ -29,6 +29,12 @@ const Articles = () => {
                   <div className='veil' />
                   <div className='block_image' style={{ background: `url(/images/blocks/${article.image}) no-repeat` }} />
                 </div>
+                <div className='content'>
+                  <h3>{article.title}</h3>
+                  <div>
+                    {article.desc}
+                  </div>
+                </div>
               </Link>
             </div>
           ))
